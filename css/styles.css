@@ -1,1 +1,91 @@
+body {
+  letter-spacing: 0.03em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  /* font-style: normal; */
+}
 
+/*отключаем подчеркивание в ссылках*/
+a {
+  text-decoration: none;
+}
+.logo-web {
+  color: #2196f3;
+}
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+
+.header-menu {
+  color: #212121;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+  font-weight: 500;
+}
+
+.header-address {
+  color: #757575;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+  font-weight: 500;
+}
+
+.header-menu:hover,
+.header-address:hover,
+.header-menu:focus,
+.header-address:focus {
+  color: #2196f3;
+}
+
+.hero-h1 {
+  color: #ffffff;
+  letter-spacing: 0.06em;
+  text-align: center;
+  line-height: 1.36;
+  font-size: 44px;
+  font-weight: 900;
+}
+
+/*кнопка в герои*/
+.hero-button {
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.06em;
+  line-height: 1.87;
+  font-size: 16px;
+  font-weight: 700;
+  background: #2196f3;
+}
+
+/*h2 заголовки в секции*/
+.section-name {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #212121;
+  line-height: 1.17;
+}
+
+/*заголовки h3 в секции о нас*/
+
+.aboutus-headers {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+.aboutus-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #757575;
+}
