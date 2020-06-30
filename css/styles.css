@@ -145,4 +145,25 @@ a {
   line-height: 1.6;
   text-align: center;
   color: #212121;
+  background-color: #f5f4fa;
+}
+
+.work-button:hover,
+.work-button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/*настройка заголовков h2*/
+.work-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.work-description {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #757575;
 }
