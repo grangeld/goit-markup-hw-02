@@ -10,9 +10,16 @@ body {
 a {
   text-decoration: none;
 }
+
+/*logo вверху и внизу*/
 .logo-web {
   color: #2196f3;
 }
+
+.logo.footer {
+  color: #ffffff;
+}
+
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -92,8 +99,7 @@ a {
   color: #ffffff;
 }
 
-/***********************************************/
-/*список команды*/
+/* список команды */
 
 .team-name {
   font-weight: 500;
@@ -108,4 +114,26 @@ a {
   line-height: 1.2;
   text-align: center;
   color: #757575;
+}
+
+/* футер */
+.footer-join {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-address {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+
+.footer-mail,
+.footer-telefon {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
 }
