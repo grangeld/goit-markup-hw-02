@@ -1,8 +1,19 @@
+:root {
+  --footer-text-color: #ffffff;
+  --footer-color-logo: #ffffff;
+  --footer-email-telefon: rgba(255, 255, 255, 0.6);
+  --header-email-telefon: #757575;
+  --defolt-color-text: #000000;
+  --header-color-logo: #000000;
+  --header-color-menu: #212121;
+  --logo-color-web: #2196f3;
+  --header-menu-address-hover: #2196f3;
+}
 body {
   letter-spacing: 0.03em;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  color: #000000;
+  color: var(--defolt-color-text);
   /* font-style: normal; */
 }
 
@@ -13,11 +24,11 @@ a {
 /******************** настройка logo**********************/
 /*logo вверху и внизу*/
 .logo-web {
-  color: #2196f3;
+  color: var(--logo-color-web);
 }
 
 .logo.footer {
-  color: #ffffff;
+  color: var(--footer-color-logo);
 }
 
 .logo {
@@ -26,18 +37,18 @@ a {
   text-decoration: none;
   font-size: 26px;
   line-height: 1.2;
-  color: #000000;
+  color: var(--header-color-logo);
 }
 /*************  header  ******************/
 .header-menu {
-  color: #212121;
+  color: var(--header-color-menu);
   letter-spacing: 0.02em;
   line-height: 1.1;
   font-weight: 500;
 }
 
 .header-address {
-  color: #757575;
+  color: var(--header-email-telefon);
   letter-spacing: 0.02em;
   line-height: 1.1;
   font-weight: 500;
@@ -47,7 +58,7 @@ a {
 .header-address:hover,
 .header-menu:focus,
 .header-address:focus {
-  color: #2196f3;
+  color: var(--header-menu-address-hover);
 }
 
 /*******************  Секции  ***********************/
@@ -123,20 +134,20 @@ a {
   font-size: 14px;
   line-height: 1.1;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--footer-text-color);
 }
 
 .footer-address {
   font-size: 14px;
   line-height: 1.7;
-  color: #ffffff;
+  color: var(--footer-text-color);
 }
 
 .footer-mail,
 .footer-telefon {
   font-size: 14px;
   line-height: 1.7;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-email-telefon);
 }
 /****************** portfolio.html ******************************/
 /*кнопки*/
