@@ -3,11 +3,12 @@
   --footer-color-logo: #ffffff;
   --footer-email-telefon: rgba(255, 255, 255, 0.6);
   --header-email-telefon: #757575;
-  --defolt-color-text: #000000;
+  --defolt-color-text: #212121;
   --header-color-logo: #000000;
   --header-color-menu: #212121;
   --logo-color-web: #2196f3;
   --header-menu-address-hover: #2196f3;
+  --hero-text-color: #ffffff;
 }
 body {
   letter-spacing: 0.03em;
@@ -64,7 +65,7 @@ a {
 
 /*******************  Секции  ***********************/
 .hero-h1 {
-  color: #ffffff;
+  color: var(--hero-text-color);
   letter-spacing: 0.06em;
   text-align: center;
   line-height: 1.4;
@@ -74,7 +75,7 @@ a {
 
 /*кнопка в герои*/
 .hero-button {
-  color: #ffffff;
+  color: var(--hero-text-color);
   text-align: center;
   letter-spacing: 0.06em;
   line-height: 1.9;
@@ -88,7 +89,6 @@ a {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
-  color: #212121;
   line-height: 1.2;
 }
 
@@ -98,7 +98,6 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
-  color: #212121;
   text-transform: uppercase;
 }
 
@@ -119,7 +118,6 @@ a {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
-  color: #212121;
 }
 .team-position {
   font-weight: 400;
@@ -157,7 +155,6 @@ a {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  color: #212121;
   background-color: #f5f4fa;
 }
 
@@ -173,7 +170,7 @@ a {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--defolt-color-text);
 }
 .work-description {
   font-size: 16px;
