@@ -8,6 +8,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -15,26 +19,30 @@
     <header>
       <!--Навигация-->
       <nav>
-        <a href="./index.html" lang="en" class="logo"
+        <a href="./index.html" lang="en" class="logo underline"
           ><span class="logo-web">Web</span> Studio</a
         >
-        <ul>
-          <li><a class="header-menu" href="./index.html">Студия</a></li>
+        <ul class="list-style">
           <li>
-            <a class="header-menu open" href="./portfolio.html">Портфолио</a>
+            <a class="header-menu underline" href="./index.html">Студия</a>
           </li>
-          <li><a class="header-menu" href="">Контакты</a></li>
+          <li>
+            <a class="header-menu open underline" href="./portfolio.html"
+              >Портфолио</a
+            >
+          </li>
+          <li><a class="header-menu underline" href="">Контакты</a></li>
         </ul>
       </nav>
       <!--номера для связи-->
-      <ul>
+      <ul class="list-style">
         <li>
-          <a class="header-address" href="mailto:info@devstudio.com">
+          <a class="header-address underline" href="mailto:info@devstudio.com">
             <address>info@devstudio.com</address>
           </a>
         </li>
         <li>
-          <a class="header-address" href="tel:+380961111111">
+          <a class="header-address underline" href="tel:+380961111111">
             <address>+38 096 111 11 11</address>
           </a>
         </li>
@@ -44,18 +52,22 @@
     <!-- Контент -->
     <main>
       <section>
-        <h1>Наши работы</h1>
-        <ul>
-          <li><button type="button" class="work-button">Все</button></li>
+        <h1 class="hide-title">Наши работы</h1>
+        <ul class="list-style">
+          <li>
+            <button type="button" class="work-button" autofocus>
+              Все
+            </button>
+          </li>
           <li><button type="button" class="work-button">Веб-сайты</button></li>
           <li><button type="button" class="work-button">Приложения</button></li>
           <li><button type="button" class="work-button">Дизайн</button></li>
           <li><button type="button" class="work-button">Маркетинг</button></li>
         </ul>
 
-        <ul>
+        <ul class="list-style">
           <li>
-            <a href="" aria-label="наши работы"
+            <a class="underline" href="" aria-label="наши работы"
               ><img
                 src="./images/portfolio/tehno.jpg"
                 alt="Технокряк"
@@ -72,7 +84,7 @@
             >
           </li>
           <li>
-            <a href="" aria-label="наши работы"
+            <a class="underline" href="" aria-label="наши работы"
               ><img
                 src="./images/portfolio/new-orlean.jpg"
                 alt="Постер New Orlean vs Golden Star"
@@ -89,7 +101,7 @@
             >
           </li>
           <li>
-            <a href="" aria-label="наши работы"
+            <a class="underline" href="" aria-label="наши работы"
               ><img
                 src="./images/portfolio/seafood.jpg"
                 alt="Ресторан Seafood"
@@ -106,7 +118,7 @@
             >
           </li>
           <li>
-            <a href="" aria-label="наши работы"
+            <a class="underline" href="" aria-label="наши работы"
               ><img
                 src="./images/portfolio/prime.jpg"
                 alt="Проект Prime"
@@ -123,7 +135,7 @@
             >
           </li>
           <li>
-            <a href="" aria-label="наши работы"
+            <a class="underline" href="" aria-label="наши работы"
               ><img
                 src="./images/portfolio/boxes.jpg"
                 alt="Проект Boxes"
@@ -140,7 +152,7 @@
             >
           </li>
           <li>
-            <a href="" aria-label="наши работы"
+            <a class="underline" href="" aria-label="наши работы"
               ><img
                 src="./images/portfolio/inspiration.jpg"
                 alt="Inspiration has no Borders"
@@ -157,7 +169,7 @@
             >
           </li>
           <li>
-            <a href="" aria-label="наши работы"
+            <a class="underline" href="" aria-label="наши работы"
               ><img
                 src="./images/portfolio/limited-edition.jpg"
                 alt="Издание Limited Edition"
@@ -174,7 +186,7 @@
             >
           </li>
           <li>
-            <a href="" aria-label="наши работы"
+            <a class="underline" href="" aria-label="наши работы"
               ><img
                 src="./images/portfolio/lab.jpg"
                 alt="Проект LAB"
@@ -191,7 +203,7 @@
             >
           </li>
           <li>
-            <a href="" aria-label="наши работы"
+            <a class="underline" href="" aria-label="наши работы"
               ><img
                 src="./images/portfolio/growing-business.jpg"
                 alt="Growing Business"
@@ -212,27 +224,27 @@
     </main>
 
     <!-- Футер -->
-    <footer>
+    <footer class="footer">
       <!--Первый див-->
       <div>
-        <a href="./index.html" lang="en" class="logo footer"
+        <a href="./index.html" lang="en" class="logo footer underline"
           ><span class="logo-web">Web</span> Studio</a
         >
-        <ul>
+        <ul class="list-style">
           <li>
             <a
               href="https://goo.gl/maps/tYCLrKBM4b6hd93w8"
-              class="footer-address"
+              class="footer-address underline"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com" class="footer-mail">
+            <a href="mailto:info@devstudio.com" class="footer-mail underline">
               <address>info@devstudio.com</address>
             </a>
           </li>
           <li>
-            <a href="tel:+380961111111" class="footer-telefon">
+            <a href="tel:+380961111111" class="footer-telefon underline">
               <address>+38 096 111 11 11</address>
             </a>
           </li>
@@ -242,11 +254,19 @@
       <!--Второй див-->
       <div>
         <b class="footer-join">присоединяйтесь</b>
-        <ul>
-          <li><a href="" aria-label="Ссылка на instagram"></a></li>
-          <li><a href="" aria-label="Ссылка на twitter"></a></li>
-          <li><a href="" aria-label="Ссылка на facebook"></a></li>
-          <li><a href="" aria-label="Ссылка на Linkedin"></a></li>
+        <ul class="list-style">
+          <li>
+            <a class="underline" href="" aria-label="Ссылка на instagram"></a>
+          </li>
+          <li>
+            <a class="underline" href="" aria-label="Ссылка на twitter"></a>
+          </li>
+          <li>
+            <a class="underline" href="" aria-label="Ссылка на facebook"></a>
+          </li>
+          <li>
+            <a class="underline" href="" aria-label="Ссылка на Linkedin"></a>
+          </li>
         </ul>
       </div>
     </footer>
