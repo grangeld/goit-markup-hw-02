@@ -125,7 +125,6 @@ body {
   color: var(--heading-text-color);
 }
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
